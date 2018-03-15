@@ -18,7 +18,6 @@ public class Book : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) 
         {
             panel.SetActive(true);
-
         }
         if (Input.GetKey(KeyCode.Escape))
         {
