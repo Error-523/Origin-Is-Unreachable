@@ -155,11 +155,13 @@ comptons bien rendre le jeu un tant soit peu horrifique du moins dans l'ambiance
 Des courses dans des labyrinthes et des énigmes à résoudre vous attendent donc dans la suite de cette
 description...
 
-\newpage
 \subsection{Gameplay}
 Pour la partie solo le joueur est dans une pyramide, dont il doit s'échapper, coincé par une momie qui le pourchasse. Pour finir le jeu, ce dernier devra retrouver des fragments de clé qui lui rappelleront son chemin jusqu'ici tout en lui permettant de sortir de sa terrible situation. Son parcours étant alterné de salles à énigmes et de courses poursuite dans un labyrinthe.
 Pour la partie multi-joueur, il se déroule à 5 maximum, avec un joueur qui incarnera la momie et pourra à sa guise placer des pièges ou déchiqueter ses victimes.
 Les autres devront comme dans la partie solo essayer de s'échapper.
+\paragraph{}
+\includegraphics[scale=0.2]{firstRoom.png}
+\newpage
 \subsubsection{In Game}
 Un homme se retrouve seul, dans une pièce sombre, sans aucun souvenir...
 Très vite, il se rend compte que cette pièce, dont les murs sont couverts de hiéroglyphes et dont le sol est jonché d'os, qui doivent être là depuis plusieurs centaine d'années, n'est pas un endroit banal....
@@ -167,15 +169,47 @@ Mais il a beau chercher, aucun souvenir ne lui revient....
 Il décide alors de tenter de s'échapper....
 Sortir de la salle ? Il y arrivera sûrement... Mais échapper à la momie qui le pourchassera dans le labyrinthe et les salles suivantes ? Tout devient incertain...
 Si néanmoins il y parvient, il trouvera sur son chemin les fragments d'une mystérieuse clé, qui en plus de lui ouvrir la porte de la sortie finale, lui ouvrira certainement les portes de sa mémoire...
+\paragraph{}
+Pour imager tout ça nous avons dû commencer par créer une map :
+\begin{center}
+\includegraphics[scale=0.2]{vueMaze3D.png}
+\end{center}
+
+Nous avons commencer par la première salle dans laquelle les murs ont été implémenter ainsi que lez sol et le plafond a partir de modèles 3D Unity puis pour étoffer le tout nous avons rajouté des colonnes et des statues è partir de modèles récupérer sur www.blendswap.com, nous avons pris de plus sur ce site les différentes matières et textures. Puis est venue la création des labyrinthe que nous avons décidé de générer procéduralement. ayant commencer par les faire a la main, nous nous sommes vite rendu compte, une fois la génération procédural disponible, que cette dernière rendait beaucoup mieux et nous avons décidé de tout remplacer. Encore une fois nous avons utiliser les textures prisent sur le même site.
+Puis il a fallu rendre l'ambiance oppressante: pour se faire, régler l'ambiance lumineuse fut la première chose a faire. Nous avons alors plongé la scène dans le noir et rajouté des torches pour améliorer la luminosité.
+Enfin nous avons du implémenter un joueur, un ennemi ainsi que leurs contrôles :
+\begin{itemize}
+\item[-] le joueur : nous avons écrit un script afin de le contrôler en vue a la première personne et diriger sa vue a la souris et nous avons pris l'asset graphique sur le même site
+\item[-] la momie : nous lui avons implémenter une I.A. basique qui sera étoffée par la suite : elle poursuit le joueur dans le labyrinthe et l'attaque une fois assez proche
+\end{itemize} 
+
+\subsubsection{Énigme}
+L'implémentation de la première énigme consiste en un problème mathématique et d'un concept original du résultat sous forme binaire.
+\begin{center}
+\includegraphics[scale=0.2]{imageEnigme.png}
+\end{center}
+
+
+
 \newpage
 \subsubsection{Menus}
-Un homme se retrouve seul, dans une pièce sombre, sans aucun souvenir...
-Très vite, il se rend compte que cette pièce, dont les murs sont couverts de hiéroglyphes et dont le sol est jonché d'os, qui doivent être là depuis plusieurs centaine d'années, n'est pas un endroit banal....
-Mais il a beau chercher, aucun souvenir ne lui revient....
-Il décide alors de tenter de s'échapper....
-Sortir de la salle ? Il y arrivera sûrement... Mais échapper à la momie qui le pourchassera dans le labyrinthe et les salles suivantes ? Tout devient incertain...
-Si néanmoins il y parvient, il trouvera sur son chemin les fragments d'une mystérieuse clé, qui en plus de lui ouvrir la porte de la sortie finale, lui ouvrira certainement les portes de sa mémoire...
 
+\paragraph{}
+\begin{center}
+\includegraphics[scale=0.2]{MainMenu.png}
+\end{center}
+\paragraph{}
+\begin{center}
+\includegraphics[scale=0.15]{MultiMenu.png}
+\end{center}
+\paragraph{}
+\begin{center}
+\includegraphics[scale=0.15]{OptionsMenu.png}
+\end{center}
+\paragraph{}
+\begin{center}
+\includegraphics[scale=0.15]{PauseMenu.png}
+\end{center}
 \newpage
 
 \subsection{Intérêts individuels}
@@ -221,7 +255,7 @@ réalisation des bandes son du jeu
 \item[-] Blender: permettront de réaliser les objets 3D présents dans le jeu
 \end{itemize}
 \subsection{Ressources Économiques}
-Les ressources économiques se résument très rapidement, possédant déjà l'ensemble des logiciels et ressources nécessaires, le café sera la seule chose vraiment essentielle au bon avancement du projet.
+Les ressources économiques se résument très rapidement, possédant déjà l'ensemble des logiciels et ressources nécessaires, le café sera la seule chose vraiment essentielle au bon avancement du projet. En effet le café a été une source importante d'énergie.
 \newpage
 \baselineskip = 18 pt
 \section{Conclusion}

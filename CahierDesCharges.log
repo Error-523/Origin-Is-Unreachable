@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.15)  15 MAR 2018 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.15)  15 MAR 2018 16:10
 entering extended mode
 **./CahierDesCharges.tex
 (CahierDesCharges.tex
@@ -927,60 +927,128 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png  used on input line 142.
 (pdftex.def)             Requested size: 48.18282pt x 48.18282pt.
  [5]
+<firstRoom.png, id=30, 1926.19624pt x 894.34125pt>
+File: firstRoom.png Graphic file (type png)
+<use firstRoom.png>
+Package pdftex.def Info: firstRoom.png  used on input line 163.
+(pdftex.def)             Requested size: 385.23242pt x 178.86508pt.
+
+Overfull \hbox (6.97955pt too wide) in paragraph at lines 163--164
+ [] [] 
+ []
+
 File: logo-epita.png Graphic file (type png)
 <use logo-epita.png>
-Package pdftex.def Info: logo-epita.png  used on input line 158.
+Package pdftex.def Info: logo-epita.png  used on input line 164.
 (pdftex.def)             Requested size: 64.5283pt x 43.69135pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 158.
+Package pdftex.def Info: logo.png  used on input line 164.
 (pdftex.def)             Requested size: 48.18282pt x 48.18282pt.
- [6]
+[6]
 File: logo-epita.png Graphic file (type png)
 <use logo-epita.png>
-Package pdftex.def Info: logo-epita.png  used on input line 170.
+Package pdftex.def Info: logo-epita.png  used on input line 164.
 (pdftex.def)             Requested size: 64.5283pt x 43.69135pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 170.
+Package pdftex.def Info: logo.png  used on input line 164.
 (pdftex.def)             Requested size: 48.18282pt x 48.18282pt.
- [7]
+ [7 <./firstRoom.png>]
+<vueMaze3D.png, id=39, 1919.17pt x 896.34875pt>
+File: vueMaze3D.png Graphic file (type png)
+<use vueMaze3D.png>
+Package pdftex.def Info: vueMaze3D.png  used on input line 175.
+(pdftex.def)             Requested size: 383.8272pt x 179.26657pt.
 File: logo-epita.png Graphic file (type png)
 <use logo-epita.png>
-Package pdftex.def Info: logo-epita.png  used on input line 179.
+Package pdftex.def Info: logo-epita.png  used on input line 181.
 (pdftex.def)             Requested size: 64.5283pt x 43.69135pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 179.
+Package pdftex.def Info: logo.png  used on input line 181.
 (pdftex.def)             Requested size: 48.18282pt x 48.18282pt.
- [8]
+ [8 <./vueMaze3D.png>]
+<imageEnigme.png, id=44, 1927.2pt x 925.4575pt>
+File: imageEnigme.png Graphic file (type png)
+<use imageEnigme.png>
+Package pdftex.def Info: imageEnigme.png  used on input line 189.
+(pdftex.def)             Requested size: 385.43318pt x 185.08821pt.
 File: logo-epita.png Graphic file (type png)
 <use logo-epita.png>
-Package pdftex.def Info: logo-epita.png  used on input line 186.
+Package pdftex.def Info: logo-epita.png  used on input line 194.
 (pdftex.def)             Requested size: 64.5283pt x 43.69135pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 186.
+Package pdftex.def Info: logo.png  used on input line 194.
 (pdftex.def)             Requested size: 48.18282pt x 48.18282pt.
- [9]
+ [9 <./imageEnigme.png>]
+<MainMenu.png, id=49, 1927.2pt x 919.435pt>
+File: MainMenu.png Graphic file (type png)
+<use MainMenu.png>
+Package pdftex.def Info: MainMenu.png  used on input line 199.
+(pdftex.def)             Requested size: 385.43318pt x 183.88374pt.
+<MultiMenu.png, id=50, 1927.2pt x 921.4425pt>
+File: MultiMenu.png Graphic file (type png)
+<use MultiMenu.png>
+Package pdftex.def Info: MultiMenu.png  used on input line 203.
+(pdftex.def)             Requested size: 289.06754pt x 138.2104pt.
+<OptionsMenu.png, id=51, 1927.2pt x 917.4275pt>
+File: OptionsMenu.png Graphic file (type png)
+<use OptionsMenu.png>
+Package pdftex.def Info: OptionsMenu.png  used on input line 207.
+(pdftex.def)             Requested size: 289.06754pt x 137.60818pt.
 File: logo-epita.png Graphic file (type png)
 <use logo-epita.png>
-Package pdftex.def Info: logo-epita.png  used on input line 199.
+Package pdftex.def Info: logo-epita.png  used on input line 210.
 (pdftex.def)             Requested size: 64.5283pt x 43.69135pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 199.
+Package pdftex.def Info: logo.png  used on input line 210.
 (pdftex.def)             Requested size: 48.18282pt x 48.18282pt.
- [10]
+
+[10 <./MainMenu.png> <./MultiMenu.png> <./OptionsMenu.png>]
+<PauseMenu.png, id=58, 1927.2pt x 920.43875pt>
+File: PauseMenu.png Graphic file (type png)
+<use PauseMenu.png>
+Package pdftex.def Info: PauseMenu.png  used on input line 211.
+(pdftex.def)             Requested size: 289.06754pt x 138.05984pt.
 File: logo-epita.png Graphic file (type png)
 <use logo-epita.png>
-Package pdftex.def Info: logo-epita.png  used on input line 225.
+Package pdftex.def Info: logo-epita.png  used on input line 213.
 (pdftex.def)             Requested size: 64.5283pt x 43.69135pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 225.
+Package pdftex.def Info: logo.png  used on input line 213.
 (pdftex.def)             Requested size: 48.18282pt x 48.18282pt.
- [11]
+ [11 <./PauseMenu.png>]
+File: logo-epita.png Graphic file (type png)
+<use logo-epita.png>
+Package pdftex.def Info: logo-epita.png  used on input line 220.
+(pdftex.def)             Requested size: 64.5283pt x 43.69135pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 220.
+(pdftex.def)             Requested size: 48.18282pt x 48.18282pt.
+ [12]
+File: logo-epita.png Graphic file (type png)
+<use logo-epita.png>
+Package pdftex.def Info: logo-epita.png  used on input line 233.
+(pdftex.def)             Requested size: 64.5283pt x 43.69135pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 233.
+(pdftex.def)             Requested size: 48.18282pt x 48.18282pt.
+ [13]
+File: logo-epita.png Graphic file (type png)
+<use logo-epita.png>
+Package pdftex.def Info: logo-epita.png  used on input line 259.
+(pdftex.def)             Requested size: 64.5283pt x 43.69135pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 259.
+(pdftex.def)             Requested size: 48.18282pt x 48.18282pt.
+ [14]
 
 Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
  Make it at least 14.61858pt.
@@ -989,30 +1057,30 @@ Package Fancyhdr Warning: \headheight is too small (14.49998pt):
 
 File: logo-epita.png Graphic file (type png)
 <use logo-epita.png>
-Package pdftex.def Info: logo-epita.png  used on input line 225.
+Package pdftex.def Info: logo-epita.png  used on input line 259.
 (pdftex.def)             Requested size: 64.5283pt x 43.69135pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 225.
+Package pdftex.def Info: logo.png  used on input line 259.
 (pdftex.def)             Requested size: 48.18282pt x 48.18282pt.
-[12]
+[15]
 File: logo-epita.png Graphic file (type png)
 <use logo-epita.png>
-Package pdftex.def Info: logo-epita.png  used on input line 235.
+Package pdftex.def Info: logo-epita.png  used on input line 269.
 (pdftex.def)             Requested size: 64.5283pt x 43.69135pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 235.
+Package pdftex.def Info: logo.png  used on input line 269.
 (pdftex.def)             Requested size: 48.18282pt x 48.18282pt.
- [13] (CahierDesCharges.aux) ) 
+ [16] (CahierDesCharges.aux) ) 
 Here is how much of TeX's memory you used:
- 13257 strings out of 493303
- 260123 string characters out of 3129577
+ 13292 strings out of 493303
+ 260726 string characters out of 3129577
  304469 words of memory out of 3000000
- 16547 multiletter control sequences out of 15000+200000
+ 16575 multiletter control sequences out of 15000+200000
  11825 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,15n,54p,748b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,15n,54p,777b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/flore/AppData/Local/Programs/MiKTeX 2.9
 /fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Users/flore/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/flore/AppData/L
@@ -1021,9 +1089,9 @@ re/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1728.pfb><
 C:/Users/flore/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sf
 rm1200.pfb><C:/Users/flore/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /cm-super/sfsl1200.pfb>
-Output written on CahierDesCharges.pdf (13 pages, 1135670 bytes).
+Output written on CahierDesCharges.pdf (16 pages, 9898573 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,15 +9,22 @@
 \contentsline {subsection}{\numberline {1.2}Pr\IeC {\'e}sentation des membres}{4}
 \contentsline {section}{\numberline {2}Notre Projet aujourd'hui}{6}
 \contentsline {subsection}{\numberline {2.1}Origine du projet}{6}
-\contentsline {subsection}{\numberline {2.2}Gameplay}{7}
-\contentsline {subsubsection}{\numberline {2.2.1}In Game}{7}
-\contentsline {subsubsection}{\numberline {2.2.2}Menus}{8}
-\contentsline {subsection}{\numberline {2.3}Int\IeC {\'e}r\IeC {\^e}ts individuels}{9}
-\contentsline {paragraph}{}{9}
-\contentsline {section}{\numberline {3}D\IeC {\'e}coupage du projet}{10}
-\contentsline {subsection}{\numberline {3.1}D\IeC {\'e}coupage du jeu: description des diff\IeC {\'e}rentes \newline parties}{10}
-\contentsline {section}{\numberline {4}Ressources utilis\IeC {\'e}es}{11}
-\contentsline {subsection}{\numberline {4.1}Le mat\IeC {\'e}riel}{11}
-\contentsline {subsection}{\numberline {4.2}Les logiciels}{11}
-\contentsline {subsection}{\numberline {4.3}Ressources \IeC {\'E}conomiques}{12}
-\contentsline {section}{\numberline {5}Conclusion}{13}
+\contentsline {subsection}{\numberline {2.2}Gameplay}{6}
+\contentsline {paragraph}{}{7}
+\contentsline {subsubsection}{\numberline {2.2.1}In Game}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {subsubsection}{\numberline {2.2.2}\IeC {\'E}nigme}{9}
+\contentsline {subsubsection}{\numberline {2.2.3}Menus}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {paragraph}{}{11}
+\contentsline {subsection}{\numberline {2.3}Int\IeC {\'e}r\IeC {\^e}ts individuels}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {section}{\numberline {3}D\IeC {\'e}coupage du projet}{13}
+\contentsline {subsection}{\numberline {3.1}D\IeC {\'e}coupage du jeu: description des diff\IeC {\'e}rentes \newline parties}{13}
+\contentsline {section}{\numberline {4}Ressources utilis\IeC {\'e}es}{14}
+\contentsline {subsection}{\numberline {4.1}Le mat\IeC {\'e}riel}{14}
+\contentsline {subsection}{\numberline {4.2}Les logiciels}{14}
+\contentsline {subsection}{\numberline {4.3}Ressources \IeC {\'E}conomiques}{15}
+\contentsline {section}{\numberline {5}Conclusion}{16}
