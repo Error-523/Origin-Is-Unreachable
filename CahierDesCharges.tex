@@ -28,7 +28,7 @@
   	\paragraph{		 Le rapport de soutenance qui suit a pour but de présenter le projet du groupe
 Error 523.\newline} 
 
-	Nous allons vous présenter les premiers avancements de notre projet Origin Is Unreachable et la bonne cohésion des membres du groupe ainsi que son bon déroulement. Chaque membre a trouvé sa place au sein du groupe et permet une avancée rapide et efficace.  
+	Nous allons vous présenter les premiers avancements de notre projet Origin Is Unreachable témoignant de la bonne cohésion des membres du groupe ainsi que du bon déroulement de ce projet. Chaque membre a trouvé sa place au sein du groupe et permet une avancée rapide et efficace. Notre projet avance relativement vite tout en respectant les règles fixées par le cahier des charges. 
 \vspace*{\stretch{1}}
 \newpage
 \thispagestyle{empty}
@@ -155,6 +155,7 @@ comptons bien rendre le jeu un tant soit peu horrifique du moins dans l'ambiance
 Des courses dans des labyrinthes et des énigmes à résoudre vous attendent donc dans la suite de cette
 description...
 
+\newpage
 \subsection{Gameplay}
 Pour la partie solo le joueur est dans une pyramide, dont il doit s'échapper, coincé par une momie qui le pourchasse. Pour finir le jeu, ce dernier devra retrouver des fragments de clé qui lui rappelleront son chemin jusqu'ici tout en lui permettant de sortir de sa terrible situation. Son parcours étant alterné de salles à énigmes et de courses poursuite dans un labyrinthe.
 Pour la partie multi-joueur, il se déroule à 5 maximum, avec un joueur qui incarnera la momie et pourra à sa guise placer des pièges ou déchiqueter ses victimes.
@@ -183,63 +184,79 @@ Enfin nous avons du implémenter un joueur, un ennemi ainsi que leurs contrôles
 \item[-] la momie : nous lui avons implémenter une I.A. basique qui sera étoffée par la suite : elle poursuit le joueur dans le labyrinthe et l'attaque une fois assez proche
 \end{itemize} 
 
+\newpage
 \subsubsection{Énigme}
 L'implémentation de la première énigme consiste en un problème mathématique et d'un concept original du résultat sous forme binaire.
 \begin{center}
 \includegraphics[scale=0.2]{imageEnigme.png}
 \end{center}
 
+\subsubsection{Génération procédurale de map}
+Nous nous sommes attelés à coder un script pour faire une génération procédurale de labyrinthe, ce script après plusieurs heures de travail et plusieurs reprises du code, nous permet de générer aléatoirement des labyrinthes en ayant pour seuls paramètres les dimensions que nous voulons lui appliquer.
 
 
 \newpage
 \subsubsection{Menus}
+L'implémentation des menus s'est faite sans trop de problème, nous avons créé 4 rubriques:
+
 
 \paragraph{}
 \begin{center}
 \includegraphics[scale=0.2]{MainMenu.png}
 \end{center}
+
+\item[-] PLAY: qui permet de lancer une partie, pour le moment il lance automatiquement la partie car nous n'avons qu'une seule carte (les suivantes viendront plus tard), par la suite ce menu permettra de choisir entre différentes cartes, niveaux...
+Mais aussi sûrement de pouvoir choisir son personnage, le monstre qui sera à sa poursuite et différents autres possibilités de modifications.
+
+\newpage
+
 \paragraph{}
 \begin{center}
 \includegraphics[scale=0.15]{MultiMenu.png}
 \end{center}
-\paragraph{}
-\begin{center}
-\includegraphics[scale=0.15]{OptionsMenu.png}
-\end{center}
+
+\item[-] MULTI-PLAYER: qui permettra par la suite de pouvoir lancer une partie à plusieurs, pour l'instant le multijoueur ne fonctionnant pas, ce menu ne change pas grand chose mais aura une grande utilité par la suite. Les parties pourront se dérouler jusqu'à 5 avec plusieurs personnes tentant de s'échapper et un autre joueur pour incarner la momie qui sera à leurs poursuite.
+
 \paragraph{}
 \begin{center}
 \includegraphics[scale=0.15]{PauseMenu.png}
 \end{center}
+
+\item[-] PAUSE: Le menu de pause du jeu, il permet d'accéder aux autres différents menu décrit ci-dessus et dans la rubrique suivante.
+
+\paragraph{}
+\begin{center}
+\includegraphics[scale=0.15]{OptionsMenu.png}
+\end{center}
+
+\item[-] OPTION: il permet comme son nom le dit, de modifier les différents paramètres du jeu tel que le son, celui des musiques, des effets etc... Il peut s'avérer pratique, notamment si votre machine refuse catégoriquement que vous quittiez ce jeu formidable pour tenter de faire autre chose que d'y jouer, mais que le son est vraiment trop fort et que vous êtes terrorisé par l'ambiance si attirante mais à la fois terriblement effrayante de ce jeu d'horreur...
+
+\item[-] QUIT!: et enfin cette dernière, rubrique la plus inutile, permettant de quitter le jeu, car de toute façons vous ne voudrez jamais le quitter car il est vraiment cool.
+
 \newpage
 
 \subsection{Intérêts individuels}
 \paragraph{}
 Gagner en autonomie, apprendre à utiliser de nouveaux logiciels (tel Unity, TeXmaker ou encore GitHub), mettre en pratique les cours d'algorithmique et de programmation ou encore approfondir nos connaissances dans des domaines pas forcément abordés en cours, sont des avantages que ce projet nous apporte à tous.
-De plus les soutenances permettront de travailler nos qualités à l'oral, que ce soit l'élocution ou encore la gestion du stress. Ce projet, s'il est réalisé sérieusement ne peut être que bénéfique dans les apports qu'il peut nous procurer.
-Cette première partie de projet nous a donné une vision global du travail qu'il nous reste à accomplir afin d'obtenir un jeu suffisamment complet afin de touché un plus grand publique. Mais aussi de nombreuses notion qui nous était encore jusque là floue nous aparaissent aujourd'hui un peu plus familière tel que le réseau (même si le réseau sous Unity est grandement facilité) ou encore l'importance des méthodes du CSharp.
+De plus les soutenances vont nous permettre de travailler nos qualités à l'oral, que ce soit l'élocution ou encore la gestion du stress. Ce projet, étant jusqu'à maintenant réalisé sérieusement ne peut être que bénéfique dans les apports qu'il peut nous procurer.
+Cette première partie de projet nous a donné une vision global du travail qu'il nous reste à accomplir afin d'obtenir un jeu suffisamment complet afin de touché un plus grand publique. Mais aussi de nombreuses notions qui nous étaient encore jusque là floue nous apparaissent aujourd'hui un peu plus familière tel que le réseau (même si le réseau sous Unity est grandement facilité) ou encore l'importance des méthodes du CSharp.
 
 \newpage
-\section{Découpage du projet}
-\subsection{Découpage du jeu: description des différentes \newline parties}
-Découpage du jeu:
-\begin{itemize}
-\item[-] Écriture du scénario et des dialogues.
-\item[-] Graphisme: tout ce qui est design des objets, personnages, environnements.
-\item[-] Réseaux: la création d'un réseau permettant notamment l'implémentation de la partie multi-joueurs.
-\item[-] Gestion des événements, interfaces, et utilisateurs.
-\item[-] Création et gestion du site internet.
-\item[-] Implémentation des musiques, sons et bruitages.
-\end{itemize}
 
-\newpage
 \section{Ressources utilisées}
 \subsection{Le matériel}
-Le matériel principal sera constitué de nos ordinateurs, néanmoins nous avons aussi utilisé une tablette graphique
+Le matériel principal est constitué de nos ordinateurs, néanmoins nous avons aussi utilisé une tablette graphique
 pour la création des logos.
 La majeure partie du travail se fera donc à partir des ordinateurs, même si la consommation de nourriture
-peu recommandée pour le régime sera nécessaire pour travailler dans les conditions les plus correctes !
+peu recommandée pour le régime est nécessaire pour travailler dans les conditions les plus correctes ! (On notera par ailleurs le budget café, kebab, pizzas et bières plus qu'important)
+
+\subsection{Ressources Économiques}
+Les ressources économiques se résument très rapidement, possédant déjà l'ensemble des logiciels et ressources nécessaires, néanmoins, comme dit précédemment le trou présent dans notre budget est essentiellement du à l'achat de café, bière, pizzas et kebab en tout genre...
+
+\newpage
+
 \subsection{Les logiciels}
-Nous utiliserons les logiciels suivants pour mener notre projet à bien:
+Nous utilisons les logiciels suivants pour mener notre projet à bien:
 \begin{itemize}
 \item[-] Unity : moteur de jeu 2D/3D permettant notamment à l'aide d'outils
 intuitifs (moteur physique, audio...) de réaliser des jeux en réseau et
@@ -255,16 +272,33 @@ réalisation des bandes son du jeu
 \item[-] Visual Studio 2017 / JetBrain's Rider : permettront la programmation en CSharp
 \item[-] Blender: permettront de réaliser les objets 3D présents dans le jeu
 \end{itemize}
-\subsection{Ressources Économiques}
-Les ressources économiques se résument très rapidement, possédant déjà l'ensemble des logiciels et ressources nécessaires, le café sera la seule chose vraiment essentielle au bon avancement du projet. En effet le café a été une source importante d'énergie.
+
+\newpage
+\section{Découpage du projet}
+\subsection{Découpage du jeu: description des différentes \newline parties}
+Découpage du projet:
+\begin{itemize}
+\item[-] Écriture du scénario et des dialogues.
+\item[-] Graphisme: tout ce qui est design des objets, personnages, environnements.
+\item[-] Réseaux: la création d'un réseau permettant notamment l'implémentation de la partie multi-joueurs.
+\item[-] Gestion des événements, interfaces, et utilisateurs.
+\item[-] Implémentation d'une Intelligence Artificielle et d'une génération procédurale de labyrinthe.
+\item[-] Création et gestion du site internet.
+\item[-] Implémentation des musiques, sons et bruitages.
+\item[-] Rédaction en LaTeX du rapport de soutenance.
+\end{itemize}
+
 \newpage
 \baselineskip = 18 pt
 \section{Conclusion}
-Ce projet est donc un défi que nous allons relever du mieux que nous pourrons, nous allons mettre le meilleur de nous-même pour le réussir le mieux possible.
+Ce projet est donc un défi que nous relevons du mieux que nous pouvons, nous mettons le meilleur de nous-même pour le réussir le mieux possible.
 
-Il représente un enjeu de taille du fait que nous débutons globalement dans le milieu de l'informatique, il permettra de développer nos compétences en même temps que la réalisation d'un projet plus que concret : aucun d'entre nous ne se serait imaginé, il y a ne serait-ce que deux ans, qu'un jour il créerait un jeu vidéo !.
+Il représente un enjeu de taille du fait que nous débutons globalement dans le milieu de l'informatique, il permet de développer nos compétences en même temps que la réalisation d'un projet plus que concret : aucun d'entre nous ne se serait imaginé, il y a ne serait-ce que deux ans, qu'un jour il créerait un jeu vidéo !.
 
-Nous nous efforcerons de coller à ce cahier des charges qui nous permet d'ores et déjà de planifier notre travail, à la fin de ce projet nous serons donc en mesure de proposer un jeu vidéo en 3D assez complet dans le style que nous avons décidé de lui donner.
+Nous nous efforçons de coller au cahier des charges (et pour l'instant cela se déroule bien) qui nous permet notamment de planifier notre travail, à la fin de ce projet nous serons donc en mesure de proposer un jeu vidéo en 3D assez complet dans le style que nous avons décidé de lui donner.
 
-En somme, ce projet nécessitera un travail de longue haleine qui permettra aux élèves de mettre en pratique tout ce qu'ils ont appris et tout ce qu'ils apprendront par eux-mêmes.
+En somme, ce projet nécessite un travail de longue haleine qui permet aux élèves du groupe Error 523 de mettre en pratique tout ce qu'ils ont appris et tout ce qu'ils apprendront par eux-mêmes.
+
+Le projet est réalisé correctement jusqu'à maintenant, et le rendu du jeu commence à devenir intéressant, nous nous prenons même à notre propre jeu et nous amusons à jouer sur notre propre jeu.
+C'est un travail intéressant qui nous permet effectivement de mettre en pratique ce que nous apprenons en cour de programmation et d'algorithmique, nous allons donc continuer à, jusqu'au dernier moment, développer et faire évoluer notre jeu pour quùil soit toujours plus attractif et fun à essayer ! 
 \end{document}
