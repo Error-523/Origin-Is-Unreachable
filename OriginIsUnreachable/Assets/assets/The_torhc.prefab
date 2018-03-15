@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 65496989097625588}
   - component: {fileID: 23260566036483184}
   - component: {fileID: 54218626174277736}
+  - component: {fileID: 114239140338512184}
   m_Layer: 0
   m_Name: The_torch
   m_TagString: Untagged
@@ -152,8 +153,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1887952919031726}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4, y: -58.1, z: -97.4}
-  m_LocalScale: {x: 0.77502644, y: 9.537388, z: 0.8558735}
+  m_LocalPosition: {x: 0.50508, y: -59.116, z: -97.343}
+  m_LocalScale: {x: 1.037725, y: 11.698644, z: 1.1404309}
   m_Children:
   - {fileID: 4752802516937004}
   - {fileID: 4612765207234826}
@@ -167,15 +168,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1703853753918424}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 271.54, y: 32.955, z: 344.19287}
-  m_LocalScale: {x: 1.8605708, y: 0.8468595, z: 1}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 356.07, y: 40, z: 746.8}
+  m_LocalScale: {x: 3.3556724, y: 0.82570636, z: 1.4810679}
   m_Children:
   - {fileID: 4509663936348296}
   - {fileID: 4367037469822100}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4509663936348296
 Transform:
   m_ObjectHideFlags: 1
@@ -381,7 +382,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1887952919031726}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -439,6 +440,20 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114239140338512184
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1887952919031726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c2402de45e6b409e5a68116118bf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  playerCam: {fileID: 0}
+  throwForce: 10
 --- !u!136 &136870142828450264
 CapsuleCollider:
   m_ObjectHideFlags: 1
