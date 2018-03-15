@@ -59,6 +59,7 @@ GameObject:
   - component: {fileID: 114040834662421462}
   - component: {fileID: 54631889615789506}
   - component: {fileID: 114455787668861564}
+  - component: {fileID: 114556282412582834}
   m_Layer: 0
   m_Name: Capsule 1
   m_TagString: Player
@@ -85,8 +86,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1505026587631648}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.89, z: -0.13}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.63, z: -0.08}
   m_LocalScale: {x: 0.006448551, y: 0.006448565, z: 0.006448565}
   m_Children: []
   m_Father: {fileID: 4734410749428632}
@@ -99,8 +100,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1674244913972512}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -166, y: 291, z: -5069}
-  m_LocalScale: {x: 87.276024, y: 106.141106, z: 106.76947}
+  m_LocalPosition: {x: -166, y: 271, z: -5069}
+  m_LocalScale: {x: 74.184616, y: 74.353775, z: 69.10564}
   m_Children:
   - {fileID: 4671369692558850}
   - {fileID: 4610991049273590}
@@ -125,7 +126,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 10000
-  field of view: 25.549402
+  field of view: 73
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -216,9 +217,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 0.6102941, g: 0.59172535, b: 0.3410467, a: 1}
-  m_Intensity: 23.08
+  m_Intensity: 12.61
   m_Range: 1507.52
-  m_SpotAngle: 60.01434
+  m_SpotAngle: 84.81559
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -255,8 +256,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   rotateSpeed: 1
-  mouseX: 0
-  mouseY: 0
+  mouseX: -56.25
+  mouseY: 47.5
 --- !u!114 &114455787668861564
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -289,6 +290,22 @@ MonoBehaviour:
     i15: 31
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
+--- !u!114 &114556282412582834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674244913972512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db4493228a4ba442a891316e3ee246f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 0}
+  characterSystem: {fileID: 0}
+  craftSystem: {fileID: 0}
+  HPMANACanvas: {fileID: 0}
+  currentHealth: 60
 --- !u!124 &124297360863809780
 Behaviour:
   m_ObjectHideFlags: 1
