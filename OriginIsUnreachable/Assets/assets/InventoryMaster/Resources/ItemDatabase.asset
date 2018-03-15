@@ -27,23 +27,16 @@ MonoBehaviour:
     indexItemInList: 999
     rarity: 0
     itemAttributes: []
-  - itemName: Leather Helmet
+  - itemName: Key
     itemID: 1
-    itemDesc: 'This helmet is created out of leather.
-
-      + 10 Health
-
-      + 10 Armor'
-    itemIcon: {fileID: 21300000, guid: 63dca6d4e4e873a4cb09997656d54082, type: 3}
-    itemModel: {fileID: 100000, guid: 40da790cc27843b45b9c255c8d996b43, type: 2}
+    itemDesc: A mysterious key
+    itemIcon: {fileID: 21300000, guid: 576b34b0cb6456e40bfc70bc79613c1e, type: 3}
+    itemModel: {fileID: 1612817714394976, guid: b64ad82af5231cb43a6716fc543190d6,
+      type: 2}
     itemValue: 1
-    itemType: 4
+    itemType: 0
     itemWeight: 0
-    maxStack: 1
+    maxStack: 3
     indexItemInList: 999
-    rarity: 23
-    itemAttributes:
-    - attributeName: Health
-      attributeValue: 10
-    - attributeName: Armor
-      attributeValue: 10
+    rarity: 0
+    itemAttributes: []
