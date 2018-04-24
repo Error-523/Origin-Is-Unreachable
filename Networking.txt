@@ -1,5 +1,7 @@
 Pour network:
+
 Empty child Network avec 2 components : Manager et ManagerHUD
+
 Sur le player ajouter : Network Identity 
 			Network Transform pour le player sync mode Rigidbody3D Rotation Y-axis + rotation factor 10
 			Network TransformChild pour la cam rotation X + movement factor 0
