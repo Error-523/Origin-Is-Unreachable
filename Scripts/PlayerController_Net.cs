@@ -12,7 +12,8 @@ public class PlayerController_Net : NetworkBehaviour {
     float sensitivity = 5f;
     public Behaviour[] compToDisable;
 
-    private void Start()
+
+    private void Start() 
     {
         // You have to set those components in Unity Editor. 
         // You have to disable the audio listener, the camera, and the controller script.
@@ -39,7 +40,11 @@ public class PlayerController_Net : NetworkBehaviour {
 
     void FixedUpdate ()
     {
-        
+        if (Camera.main != null)
+        {
+            Camera.main.gameObject.SetActive(false);
+        }
+
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * 5.0f * speed;
         var z = Input.GetAxis("Vertical") * Time.deltaTime * 5.0f * speed;
 
@@ -62,6 +67,7 @@ public class PlayerController_Net : NetworkBehaviour {
 
     private void OnDisable()
     {
-        Camera.main.enabled = true;
+        if(Camera.main !=null )
+            Camera.main.gameObject.SetActive(true); ;
     }
 }
