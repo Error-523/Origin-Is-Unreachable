@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\maxim\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Blake-IA.1075440834.00" t="ExcludeRecursive" />
+    <e p="C:\Users\maxim\Desktop\Unity\Blake-IA" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets\_Editors" t="Include">
+        <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+        <e p="NavMeshLinkEditor.cs.cs" t="Include" />
+        <e p="NavMeshModifierEditor.cs.cs" t="Include" />
+        <e p="NavMeshModifierVolumeEditor.cs.cs" t="Include" />
+        <e p="NavMeshSurfaceEditor.cs.cs" t="Include" />
+      </e>
+      <e p="Assets\_Scripts" t="Include">
+        <e p="DealDamage.cs" t="Include" />
+        <e p="MouseLook.cs" t="Include" />
+        <e p="mummyAI.cs" t="Include" />
+        <e p="mummyIA.cs" t="Include" />
+        <e p="MummyStats.cs" t="Include" />
+        <e p="NavMeshLink.cs" t="Include" />
+        <e p="NavMeshModifier.cs" t="Include" />
+        <e p="NavMeshModifierVolume.cs" t="Include" />
+        <e p="NavMeshSurface.cs" t="Include" />
+        <e p="PlayerController.cs" t="Include" />
+        <e p="PlayerStats.cs" t="Include" />
+        <e p="ThirdPersonCharacter.cs" t="Include" />
+      </e>
+      <e p="Assets\Mummy" t="Include">
+        <e p="C#" t="Include">
+          <e p="Axe.cs" t="Include" />
+          <e p="BaseAnimController.cs" t="Include" />
+          <e p="CameraController.cs" t="Include" />
+          <e p="MainController.cs" t="Include" />
+          <e p="Spear.cs" t="Include" />
+          <e p="Spear_Shield.cs" t="Include" />
+          <e p="Sword_Shield.cs" t="Include" />
+          <e p="Weaponless.cs" t="Include" />
+        </e>
+        <e p="Materials" t="Include">
+          <e p="myStandart.shader" t="Include" />
+        </e>
+      </e>
+      <e p="Blake-IA.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
