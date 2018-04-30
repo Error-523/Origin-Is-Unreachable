@@ -21,7 +21,7 @@ public class triggerenigmefail : MonoBehaviour {
     {
         if (opening)
         {
-            door.position = new Vector3(door.position.x, door.position.y, door.position.z - movement);
+            door.position = new Vector3(door.position.x, door.position.y, door.position.z - movement*Time.deltaTime);
             //door2.position = new Vector3(door2.position.x, door2.position.y, door2.position.z - movement);
         }
 
