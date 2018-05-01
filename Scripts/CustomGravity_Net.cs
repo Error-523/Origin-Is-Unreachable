@@ -4,6 +4,8 @@ using UnityEngine.Networking;
 [RequireComponent(typeof(Rigidbody))]
 public class CustomGravity_Net : NetworkBehaviour
 {
+    public float jumpForce;
+    public float FloorPos;
     // Gravity Scale editable on the inspector
     // providing a gravity scale per object
 
@@ -16,24 +18,36 @@ public class CustomGravity_Net : NetworkBehaviour
 
     Rigidbody m_rb;
 
-    void OnEnable()
+    private void Start()
     {
         if (!isLocalPlayer)
             return;
+        //controller = GetComponent<CharacterController>();
         m_rb = GetComponent<Rigidbody>();
-        if (m_rb == null)
-            Debug.Log("PUTEUH !");
-        m_rb.useGravity = false;
     }
-
     void FixedUpdate()
     {
         if (!isLocalPlayer)
             return;
         m_rb = GetComponent<Rigidbody>();
         Vector3 gravity = globalGravity * gravityScale * Vector3.up;
-        m_rb.AddForce(gravity, ForceMode.Acceleration);
-        if (m_rb == null)
-            Debug.Log("PUTEUH !");
+        if (m_rb.position.y < FloorPos)
+        {
+                if (Input.GetKeyDown(KeyCode.Space))
+                m_rb.velocity = Vector3.up * jumpForce;
+        }
+        else
+            m_rb.AddForce(gravity, ForceMode.Acceleration);
+        
     }
+
+    private void Update()
+    {
+        if (!isLocalPlayer)
+            return;
+        
+    }
+
+
+
 }

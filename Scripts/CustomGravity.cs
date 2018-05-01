@@ -3,6 +3,8 @@
 [RequireComponent(typeof(Rigidbody))]
 public class CustomGravity : MonoBehaviour
 {
+    public float jumpForce;
+    public float FloorPos;
     // Gravity Scale editable on the inspector
     // providing a gravity scale per object
 
@@ -15,16 +17,22 @@ public class CustomGravity : MonoBehaviour
 
     Rigidbody m_rb;
 
-    void OnEnable()
+    private void Start()
     {
+        //controller = GetComponent<CharacterController>();
         m_rb = GetComponent<Rigidbody>();
-        m_rb.useGravity = false;
     }
-
     void FixedUpdate()
     {
         m_rb = GetComponent<Rigidbody>();
         Vector3 gravity = globalGravity * gravityScale * Vector3.up;
-        m_rb.AddForce(gravity, ForceMode.Acceleration);
+        if (m_rb.position.y < FloorPos)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+                m_rb.velocity = Vector3.up * jumpForce;
+        }
+        else
+            m_rb.AddForce(gravity, ForceMode.Acceleration);
+
     }
 }
