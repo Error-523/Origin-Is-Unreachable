@@ -1,33 +1,33 @@
 \babel@toc {french}{}
-\contentsline {paragraph}{ Le rapport de soutenance qui suit a pour but de pr\IeC {\'e}senter le projet du groupe Error 523.\newline }{1}
-\contentsline {section}{\numberline {1}Rappels}{3}
-\contentsline {subsection}{\numberline {1.1}R\IeC {\'e}partition des t\IeC {\^a}ches}{3}
-\contentsline {paragraph}{}{3}
-\contentsline {paragraph}{}{3}
-\contentsline {paragraph}{Plus on va vers le rouge plus le niveau d'implication dans le domaine est \IeC {\'e}lev\IeC {\'e}.}{3}
-\contentsline {paragraph}{}{3}
-\contentsline {subsection}{\numberline {1.2}Pr\IeC {\'e}sentation des membres}{4}
-\contentsline {section}{\numberline {2}Notre Projet aujourd'hui}{6}
-\contentsline {subsection}{\numberline {2.1}Origine du projet}{6}
-\contentsline {subsection}{\numberline {2.2}Gameplay}{7}
-\contentsline {paragraph}{}{7}
-\contentsline {subsubsection}{\numberline {2.2.1}R\IeC {\'e}seaux}{8}
-\contentsline {subsubsection}{\numberline {2.2.2}Site Internet}{8}
-\contentsline {subsubsection}{\numberline {2.2.3}In Game}{9}
-\contentsline {paragraph}{}{9}
-\contentsline {subsubsection}{\numberline {2.2.4}\IeC {\'E}nigme}{11}
-\contentsline {subsubsection}{\numberline {2.2.5}G\IeC {\'e}n\IeC {\'e}ration proc\IeC {\'e}durale de map}{11}
-\contentsline {subsubsection}{\numberline {2.2.6}Menus}{12}
-\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{ Le rapport de soutenance qui suit a pour but de pr\IeC {\'e}senter le projet du groupe Error 523.\newline }{2}
+\contentsline {section}{\numberline {1}Rappels}{4}
+\contentsline {subsection}{\numberline {1.1}R\IeC {\'e}partition des t\IeC {\^a}ches}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{Plus on va vers le rouge plus le niveau d'implication dans le domaine est \IeC {\'e}lev\IeC {\'e}.}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {subsection}{\numberline {1.2}Pr\IeC {\'e}sentation des membres}{5}
+\contentsline {section}{\numberline {2}Notre Projet aujourd'hui}{7}
+\contentsline {subsection}{\numberline {2.1}Origine du projet}{7}
+\contentsline {subsection}{\numberline {2.2}Gameplay}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {subsubsection}{\numberline {2.2.1}R\IeC {\'e}seaux}{9}
+\contentsline {subsubsection}{\numberline {2.2.2}Site Internet}{9}
+\contentsline {subsubsection}{\numberline {2.2.3}In Game}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {subsubsection}{\numberline {2.2.4}\IeC {\'E}nigme}{12}
+\contentsline {subsubsection}{\numberline {2.2.5}G\IeC {\'e}n\IeC {\'e}ration proc\IeC {\'e}durale de map}{12}
+\contentsline {subsubsection}{\numberline {2.2.6}Menus}{13}
 \contentsline {paragraph}{}{13}
-\contentsline {paragraph}{}{13}
-\contentsline {paragraph}{}{13}
-\contentsline {subsection}{\numberline {2.3}Int\IeC {\'e}r\IeC {\^e}ts individuels}{14}
 \contentsline {paragraph}{}{14}
-\contentsline {section}{\numberline {3}Ressources utilis\IeC {\'e}es}{15}
-\contentsline {subsection}{\numberline {3.1}Le mat\IeC {\'e}riel}{15}
-\contentsline {subsection}{\numberline {3.2}Ressources \IeC {\'E}conomiques}{15}
-\contentsline {subsection}{\numberline {3.3}Les logiciels}{16}
-\contentsline {section}{\numberline {4}D\IeC {\'e}coupage du projet}{17}
-\contentsline {subsection}{\numberline {4.1}D\IeC {\'e}coupage du jeu: description des diff\IeC {\'e}rentes \newline parties}{17}
-\contentsline {section}{\numberline {5}Conclusion}{18}
+\contentsline {paragraph}{}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {subsection}{\numberline {2.3}Int\IeC {\'e}r\IeC {\^e}ts individuels}{15}
+\contentsline {paragraph}{}{15}
+\contentsline {section}{\numberline {3}Ressources utilis\IeC {\'e}es}{16}
+\contentsline {subsection}{\numberline {3.1}Le mat\IeC {\'e}riel}{16}
+\contentsline {subsection}{\numberline {3.2}Ressources \IeC {\'E}conomiques}{16}
+\contentsline {subsection}{\numberline {3.3}Les logiciels}{17}
+\contentsline {section}{\numberline {4}D\IeC {\'e}coupage du projet}{18}
+\contentsline {subsection}{\numberline {4.1}D\IeC {\'e}coupage du jeu: description des diff\IeC {\'e}rentes \newline parties}{18}
+\contentsline {section}{\numberline {5}Conclusion}{19}

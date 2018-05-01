@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=latex 2018.3.15)  30 APR 2018 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=latex 2018.3.15)  1 MAY 2018 12:57
 entering extended mode
 **./CahierDesCharges.tex
 (CahierDesCharges.tex
@@ -775,7 +775,26 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 )
 \everycr=\toks34
 \minrowclearance=\skip59
-) (CahierDesCharges.aux)
+)
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 $
+      \fancyfoot[R]{\includegraphics[scale=0.05]{logo.png}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 12.
+(CahierDesCharges.aux)
 \openout1 = `CahierDesCharges.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -796,18 +815,6 @@ LaTeX Info: Redefining \up on input line 15.
  ABD: EveryShipout initializing macros [1
 
 ]
-(CahierDesCharges.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 4.
-)
-\tf@toc=\write4
-\openout4 = `CahierDesCharges.toc'.
-
- [2]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -815,18 +822,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
 ox).
 
@@ -834,25 +829,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 \newpage
-              
+l.33 \newpage
+             
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: logo-epita.png Graphic file (type eps)
 <logo-epita.png>
-
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 
 ! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
 
@@ -860,25 +843,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 \newpage
-              
+l.33 \newpage
+             
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: logo.png Graphic file (type eps)
-<logo.png> [3]
+<logo.png> [2] (CahierDesCharges.toc)
+\tf@toc=\write4
+\openout4 = `CahierDesCharges.toc'.
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ [3]
 
 ! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
 ox).
@@ -887,7 +862,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \newpage
+l.100 \newpage
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -895,25 +870,13 @@ If that doesn't work, type  X <return>  to quit.
 File: logo-epita.png Graphic file (type eps)
 <logo-epita.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \newpage
+l.100 \newpage
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -921,18 +884,6 @@ If that doesn't work, type  X <return>  to quit.
 File: logo.png Graphic file (type eps)
 <logo.png> [4]
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.142 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
 ox).
 
@@ -940,7 +891,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.142 \newpage
+l.120 \newpage
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -948,25 +899,13 @@ If that doesn't work, type  X <return>  to quit.
 File: logo-epita.png Graphic file (type eps)
 <logo-epita.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.142 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.142 \newpage
+l.120 \newpage
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -974,17 +913,34 @@ If that doesn't work, type  X <return>  to quit.
 File: logo.png Graphic file (type eps)
 <logo.png> [5]
 
-! Package keyval Error: 800 800 undefined.
+! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
+ox).
 
-See the keyval package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \newpage
+l.142 \newpage
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+File: logo-epita.png Graphic file (type eps)
+<logo-epita.png>
+
+! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \newpage
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: logo.png Graphic file (type eps)
+<logo.png> [6]
 
 ! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
 ox).
@@ -1001,18 +957,6 @@ If that doesn't work, type  X <return>  to quit.
 File: logo-epita.png Graphic file (type eps)
 <logo-epita.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -1025,7 +969,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: logo.png Graphic file (type eps)
-<logo.png> [6]
+<logo.png> [7]
 
 ! LaTeX Error: Cannot determine size of graphic in firstRoom.png (no BoundingBo
 x).
@@ -1042,18 +986,6 @@ If that doesn't work, type  X <return>  to quit.
 File: firstRoom.png Graphic file (type eps)
 <firstRoom.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.165 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
 ox).
 
@@ -1069,18 +1001,6 @@ If that doesn't work, type  X <return>  to quit.
 File: logo-epita.png Graphic file (type eps)
 <logo-epita.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.165 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -1088,65 +1008,41 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.165 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: logo.png Graphic file (type eps)
-<logo.png> [7]
-
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.170 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
-ox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.170 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: logo-epita.png Graphic file (type eps)
-<logo-epita.png>
-
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.170 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.170 \newpage
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: logo.png Graphic file (type eps)
 <logo.png> [8]
+
+! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170 \newpage
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: logo-epita.png Graphic file (type eps)
+<logo-epita.png>
+
+! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170 \newpage
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: logo.png Graphic file (type eps)
+<logo.png> [9]
 
 ! LaTeX Error: Cannot determine size of graphic in vueMaze3D.png (no BoundingBo
 x).
@@ -1163,19 +1059,6 @@ If that doesn't work, type  X <return>  to quit.
 File: vueMaze3D.png Graphic file (type eps)
 <vueMaze3D.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.189 \item[-]
-               la momie : nous lui avons implémenter une I.A. basique qui s...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
 ox).
 
@@ -1192,19 +1075,6 @@ If that doesn't work, type  X <return>  to quit.
 File: logo-epita.png Graphic file (type eps)
 <logo-epita.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.189 \item[-]
-               la momie : nous lui avons implémenter une I.A. basique qui s...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -1214,64 +1084,40 @@ Type  H <return>  for immediate help.
 l.189 \item[-]
                la momie : nous lui avons implémenter une I.A. basique qui s...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: logo.png Graphic file (type eps)
-<logo.png> [9]
-
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
-ox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: logo-epita.png Graphic file (type eps)
-<logo-epita.png>
-
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192 \newpage
-              
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: logo.png Graphic file (type eps)
 <logo.png> [10]
+
+! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
+ox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 \newpage
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: logo-epita.png Graphic file (type eps)
+<logo-epita.png>
+
+! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 \newpage
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: logo.png Graphic file (type eps)
+<logo.png> [11]
 
 ! LaTeX Error: Cannot determine size of graphic in imageEnigme.png (no Bounding
 Box).
@@ -1288,18 +1134,6 @@ If that doesn't work, type  X <return>  to quit.
 File: imageEnigme.png Graphic file (type eps)
 <imageEnigme.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
 ox).
 
@@ -1315,18 +1149,6 @@ If that doesn't work, type  X <return>  to quit.
 File: logo-epita.png Graphic file (type eps)
 <logo-epita.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -1339,7 +1161,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: logo.png Graphic file (type eps)
-<logo.png> [11]
+<logo.png> [12]
 
 ! LaTeX Error: Cannot determine size of graphic in MainMenu.png (no BoundingBox
 ).
@@ -1374,18 +1196,6 @@ Underfull \hbox (badness 10000) detected at line 213
  []
 
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.216 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
 ox).
 
@@ -1401,18 +1211,6 @@ If that doesn't work, type  X <return>  to quit.
 File: logo-epita.png Graphic file (type eps)
 <logo-epita.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.216 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -1425,7 +1223,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: logo.png Graphic file (type eps)
-<logo.png> [12]
+<logo.png> [13]
 
 ! LaTeX Error: Cannot determine size of graphic in MultiMenu.png (no BoundingBo
 x).
@@ -1544,18 +1342,6 @@ Underfull \hbox (badness 10000) detected at line 239
  []
 
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.241 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
 ox).
 
@@ -1571,18 +1357,6 @@ If that doesn't work, type  X <return>  to quit.
 File: logo-epita.png Graphic file (type eps)
 <logo-epita.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.241 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -1590,59 +1364,6 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.241 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: logo.png Graphic file (type eps)
-<logo.png> [13]
-
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
-ox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: logo-epita.png Graphic file (type eps)
-<logo-epita.png>
-
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249 \newpage
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1650,18 +1371,6 @@ If that doesn't work, type  X <return>  to quit.
 File: logo.png Graphic file (type eps)
 <logo.png> [14]
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
 ox).
 
@@ -1669,7 +1378,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.261 \newpage
+l.249 \newpage
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1677,25 +1386,13 @@ If that doesn't work, type  X <return>  to quit.
 File: logo-epita.png Graphic file (type eps)
 <logo-epita.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.261 \newpage
+l.249 \newpage
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1703,18 +1400,6 @@ If that doesn't work, type  X <return>  to quit.
 File: logo.png Graphic file (type eps)
 <logo.png> [15]
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
 ox).
 
@@ -1722,7 +1407,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.281 \newpage
+l.261 \newpage
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1730,25 +1415,13 @@ If that doesn't work, type  X <return>  to quit.
 File: logo-epita.png Graphic file (type eps)
 <logo-epita.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.281 \newpage
+l.261 \newpage
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1756,18 +1429,6 @@ If that doesn't work, type  X <return>  to quit.
 File: logo.png Graphic file (type eps)
 <logo.png> [16]
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.296 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
 ox).
 
@@ -1775,7 +1436,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296 \newpage
+l.281 \newpage
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1783,25 +1444,13 @@ If that doesn't work, type  X <return>  to quit.
 File: logo-epita.png Graphic file (type eps)
 <logo-epita.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.296 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296 \newpage
+l.281 \newpage
               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1809,17 +1458,34 @@ If that doesn't work, type  X <return>  to quit.
 File: logo.png Graphic file (type eps)
 <logo.png> [17]
 
-! Package keyval Error: 800 800 undefined.
+! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
+ox).
 
-See the keyval package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.309 \end{document}
-                    
+l.296 \newpage
+              
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+File: logo-epita.png Graphic file (type eps)
+<logo-epita.png>
+
+! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.296 \newpage
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: logo.png Graphic file (type eps)
+<logo.png> [18]
 
 ! LaTeX Error: Cannot determine size of graphic in logo-epita.png (no BoundingB
 ox).
@@ -1836,18 +1502,6 @@ If that doesn't work, type  X <return>  to quit.
 File: logo-epita.png Graphic file (type eps)
 <logo-epita.png>
 
-! Package keyval Error: 800 800 undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.309 \end{document}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 ! LaTeX Error: Cannot determine size of graphic in logo.png (no BoundingBox).
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -1860,14 +1514,14 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: logo.png Graphic file (type eps)
-<logo.png> [18] (CahierDesCharges.aux) ) 
+<logo.png> [19] (CahierDesCharges.aux) ) 
 Here is how much of TeX's memory you used:
- 12412 strings out of 493304
- 246077 string characters out of 3129603
+ 12411 strings out of 493304
+ 246063 string characters out of 3129603
  297494 words of memory out of 3000000
- 15738 multiletter control sequences out of 15000+200000
+ 15737 multiletter control sequences out of 15000+200000
  11825 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,54p,2284b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,54p,2284b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CahierDesCharges.dvi (18 pages, 47248 bytes).
+Output written on CahierDesCharges.dvi (19 pages, 47604 bytes).
