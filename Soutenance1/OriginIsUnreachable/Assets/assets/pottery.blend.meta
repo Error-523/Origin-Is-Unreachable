@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: 0c8ba81667293fd449439c0a43daacce
+timeCreated: 1525175589
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: anfora_005
+    100002: ariballoi
+    100004: askoi_A
+    100006: askoi_B
+    100008: bombylioi_A
+    100010: bombylioi_B
+    100012: hidria_003
+    100014: Kantharoi_A
+    100016: kantharoi_B
+    100018: kelbe_A
+    100020: kelbe_B
+    100022: kelbe_B_002
+    100024: kelbe_C
+    100026: kylikes_A
+    100028: kylikes_B_001
+    100030: lekythoi_A
+    100032: lekythoi_B
+    100034: oinokoai_A_003
+    100036: oinokoai_B
+    100038: oinokoai_C
+    100040: oinokoai_D
+    100042: pelike
+    100044: Plane
+    100046: //RootNode
+    100048: pyxides_A
+    100050: pyxides_A_001
+    100052: pyxides_B
+    100054: pyxides_B_001
+    100056: skyphoi_A
+    100058: skyphoi_B
+    400000: anfora_005
+    400002: ariballoi
+    400004: askoi_A
+    400006: askoi_B
+    400008: bombylioi_A
+    400010: bombylioi_B
+    400012: hidria_003
+    400014: Kantharoi_A
+    400016: kantharoi_B
+    400018: kelbe_A
+    400020: kelbe_B
+    400022: kelbe_B_002
+    400024: kelbe_C
+    400026: kylikes_A
+    400028: kylikes_B_001
+    400030: lekythoi_A
+    400032: lekythoi_B
+    400034: oinokoai_A_003
+    400036: oinokoai_B
+    400038: oinokoai_C
+    400040: oinokoai_D
+    400042: pelike
+    400044: Plane
+    400046: //RootNode
+    400048: pyxides_A
+    400050: pyxides_A_001
+    400052: pyxides_B
+    400054: pyxides_B_001
+    400056: skyphoi_A
+    400058: skyphoi_B
+    2100000: Material
+    2100002: decorazione4__01_png
+    2100004: decorazione10__09_png
+    2100006: decorazione1__01_png
+    2100008: decorazione4__04_png
+    2100010: decorazione7__07_png
+    2100012: decorazione6__06_jpg
+    2100014: decorazione9__09_png
+    2100016: decorazione8__08_png
+    2100018: decorazione10__10_png
+    2100020: decorazione1__01_png_002
+    2100022: decorazione1__02_png_001
+    2100024: decorazione7__02_png_001
+    2100026: decorazione7__07_png_001
+    2100028: decorazione2__02_png_003
+    2100030: decorazione3__03_png
+    2100032: decorazione5__05_png
+    2100034: decorazione5__08_png_001
+    2300000: anfora_005
+    2300002: ariballoi
+    2300004: askoi_A
+    2300006: askoi_B
+    2300008: bombylioi_A
+    2300010: bombylioi_B
+    2300012: hidria_003
+    2300014: Kantharoi_A
+    2300016: kantharoi_B
+    2300018: kelbe_A
+    2300020: kelbe_B
+    2300022: kelbe_B_002
+    2300024: kelbe_C
+    2300026: kylikes_A
+    2300028: kylikes_B_001
+    2300030: lekythoi_A
+    2300032: lekythoi_B
+    2300034: oinokoai_A_003
+    2300036: oinokoai_B
+    2300038: oinokoai_C
+    2300040: oinokoai_D
+    2300042: pelike
+    2300044: Plane
+    2300046: pyxides_A
+    2300048: pyxides_A_001
+    2300050: pyxides_B
+    2300052: pyxides_B_001
+    2300054: skyphoi_A
+    2300056: skyphoi_B
+    3300000: anfora_005
+    3300002: ariballoi
+    3300004: askoi_A
+    3300006: askoi_B
+    3300008: bombylioi_A
+    3300010: bombylioi_B
+    3300012: hidria_003
+    3300014: Kantharoi_A
+    3300016: kantharoi_B
+    3300018: kelbe_A
+    3300020: kelbe_B
+    3300022: kelbe_B_002
+    3300024: kelbe_C
+    3300026: kylikes_A
+    3300028: kylikes_B_001
+    3300030: lekythoi_A
+    3300032: lekythoi_B
+    3300034: oinokoai_A_003
+    3300036: oinokoai_B
+    3300038: oinokoai_C
+    3300040: oinokoai_D
+    3300042: pelike
+    3300044: Plane
+    3300046: pyxides_A
+    3300048: pyxides_A_001
+    3300050: pyxides_B
+    3300052: pyxides_B_001
+    3300054: skyphoi_A
+    3300056: skyphoi_B
+    4300000: Plane
+    4300002: hidria_003
+    4300004: oinokoai_A_003
+    4300006: anfora_005
+    4300008: kylikes_B_001
+    4300010: ariballoi
+    4300012: askoi_A
+    4300014: askoi_B
+    4300016: bombylioi_A
+    4300018: bombylioi_B
+    4300020: Kantharoi_A
+    4300022: kantharoi_B
+    4300024: kelbe_A
+    4300026: kelbe_B_002
+    4300028: kelbe_B
+    4300030: kelbe_C
+    4300032: kylikes_A
+    4300034: lekythoi_A
+    4300036: lekythoi_B
+    4300038: oinokoai_B
+    4300040: oinokoai_C
+    4300042: oinokoai_D
+    4300044: pelike
+    4300046: pyxides_A
+    4300048: pyxides_A_001
+    4300050: pyxides_B
+    4300052: pyxides_B_001
+    4300054: skyphoi_A
+    4300056: skyphoi_B
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
