@@ -288,8 +288,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="assets\AdvancedMerge.cs" />
-    <Compile Include="assets\AudioStartEnd.cs" />
     <Compile Include="assets\IA\Mummy\_Scripts\mummyIA.cs" />
     <Compile Include="assets\IA\Mummy\_Scripts\MummyStats.cs" />
     <Compile Include="assets\IA\Mummy\C#\Axe.cs" />
@@ -303,13 +301,13 @@
     <Compile Include="assets\Maze_generate\Labyrinthe Procédurale\Assets\_Scripts\Maze.cs" />
     <Compile Include="assets\Maze_generate\Labyrinthe Procédurale\Assets\_Scripts\MazeCell.cs" />
     <Compile Include="assets\Maze_generate\Labyrinthe Procédurale\Assets\_Scripts\MouseLook.cs" />
-    <Compile Include="assets\MeshCombinerEditor.cs" />
     <Compile Include="assets\Player\_Scripts\MouseLookAnim.cs" />
     <Compile Include="assets\Player\_Scripts\PlayerControllerSolo.cs" />
     <Compile Include="assets\Player\_Scripts\PlayerStats.cs" />
     <Compile Include="assets\Player\_Scripts\PlayerStatsSolo.cs" />
     <Compile Include="assets\Script\AudioSettings.cs" />
     <Compile Include="assets\Script\Book.cs" />
+    <Compile Include="assets\Script\enigmeprof.cs" />
     <Compile Include="assets\Script\HeartLife.cs" />
     <Compile Include="assets\Script\MainMenu.cs" />
     <Compile Include="assets\Script\Noir_total.cs" />
@@ -320,6 +318,7 @@
     <Compile Include="assets\Script\Takingtorch.cs" />
     <Compile Include="assets\Script\triggerAuto.cs" />
     <Compile Include="assets\Script\triggerAutoUp.cs" />
+    <Compile Include="assets\Script\triggerenigmefail.cs" />
     <Compile Include="assets\Script\triggerManuel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -328,6 +327,24 @@
     <None Include="assets\OKAY\40962_Wall_Texture\BLENDSWAP_LICENSE.txt" />
     <None Include="assets\OKAY\4096_Stone_Column_v.2\BLENDSWAP_LICENSE.txt" />
     <None Include="assets\OKAY\66855_Low_Poly_Wall_Torch\BLENDSWAP_LICENSE.txt" />
+    <None Include="assets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_NormalPreview.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_ReferenceUnlit.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_ScrollHighlight.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_SmoothingPreview.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_UnlitSolidColor.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
+    <None Include="assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
+    <None Include="assets\ProCore\ProBuilder\readme.txt" />
+    <None Include="assets\wood_texture\BLENDSWAP_LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
