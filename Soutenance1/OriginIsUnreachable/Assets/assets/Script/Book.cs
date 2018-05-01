@@ -5,6 +5,7 @@ using UnityEngine;
 public class Book : MonoBehaviour
 {
     public GameObject panel;
+    public bool opening = false;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +16,23 @@ public class Book : MonoBehaviour
     
     public void Update ()
     {
-        if (Input.GetMouseButtonDown(0)) 
+        if (opening)
+            openmessage();
+
+	}
+
+    public void OnTriggerEnter(Collider obj)
+    {
+        if (obj.transform.tag == "Player")
+        {
+            opening = true;
+        }
+    }
+
+
+    public void openmessage()
+    {
+        if (Input.GetKey(KeyCode.E))
         {
             panel.SetActive(true);
         }
@@ -23,6 +40,6 @@ public class Book : MonoBehaviour
         {
             panel.SetActive(false);
         }
-		
-	}
+    }
+    
 }
