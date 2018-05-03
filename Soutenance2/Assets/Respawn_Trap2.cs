@@ -18,7 +18,7 @@ public class Respawn_Trap2 : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            other.transform.position = new Vector3(-4292, 244, -1567);
+            other.transform.position = new Vector3(-11823, 193, -585);
         }
 
     }

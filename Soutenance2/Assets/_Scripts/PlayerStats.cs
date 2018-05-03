@@ -106,7 +106,7 @@ public class PlayerStats: MonoBehaviour
             infoText = GameObject.FindObjectOfType<Text>();
             infoText.text = "Game Over!\nYou died!";
             GameObject player = GameObject.FindGameObjectWithTag("Player");
-            Destroy(player);
+            //Destroy(player);
     }
     
 }

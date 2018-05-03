@@ -3,6 +3,7 @@ using System.Collections;
 public class PickUpItem : MonoBehaviour
 {
     public Item item;
+    public int distancePlayer;
     private Inventory _inventory;
     private GameObject _player;
     // Use this for initialization
@@ -21,7 +22,7 @@ public class PickUpItem : MonoBehaviour
         {
             float distance = Vector3.Distance(this.gameObject.transform.position, _player.transform.position);
 
-            if (distance <= 400)
+            if (distance <= distancePlayer)
             {
                 bool check = _inventory.checkIfItemAllreadyExist(item.itemID, item.itemValue);
                 if (check)

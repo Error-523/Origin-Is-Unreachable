@@ -27,17 +27,21 @@ MonoBehaviour:
     indexItemInList: 999
     rarity: 0
     itemAttributes: []
-  - itemName: key
+  - itemName: Key
     itemID: 1
-    itemDesc: A key to unlock the final door
+    itemDesc: 'This helmet is created out of leather.
+
+      + 10 Health
+
+      + 10 Armor'
     itemIcon: {fileID: 21300000, guid: d67d9ac62eb851e4b9e48f43564580af, type: 3}
     itemModel: {fileID: 100000, guid: 40da790cc27843b45b9c255c8d996b43, type: 2}
     itemValue: 1
-    itemType: 3
+    itemType: 4
     itemWeight: 0
     maxStack: 1
     indexItemInList: 999
-    rarity: 1
+    rarity: 23
     itemAttributes:
     - attributeName: Health
       attributeValue: 10

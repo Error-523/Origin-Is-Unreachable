@@ -3,7 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Trap
+  - Torchs
+  - Canvas
+  - MainInventory
+  - Panel
+  - DraggingItem
+  - CraftSystem
+  - EquipmentSystem
+  - Timer
+  - Tooltip
+  - Slots
+  - ResultSlot
+  - Slot
+  - Item
+  - ItemIcon
+  - AI
   layers:
   - Default
   - TransparentFX

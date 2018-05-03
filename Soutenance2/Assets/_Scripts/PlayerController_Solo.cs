@@ -9,6 +9,9 @@ public class PlayerController_Solo : MonoBehaviour
     public float speed;
     public float rotateSpeed;
     public float playerHeight = 0;
+    public Canvas PauseMenu;
+    public GameObject inventory;
+    public GameObject hearts;
     float mouseX;
     float mouseY;
     float sensitivity = 5f;
@@ -40,6 +43,17 @@ public class PlayerController_Solo : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        bool isActive = PauseMenu.gameObject.activeInHierarchy;
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseMenu.gameObject.SetActive(!isActive);
+            inventory.SetActive(isActive);
+            hearts.SetActive(isActive);
+        }
+
+    }
     void FixedUpdate()
     {
         if (Camera.main != null)

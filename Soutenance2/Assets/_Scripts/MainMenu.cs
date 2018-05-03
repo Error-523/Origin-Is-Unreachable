@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
+    
+
     public void PlayGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
         //SceneManager.UnloadScene(0);
     }
 
@@ -18,11 +20,12 @@ public class MainMenu : MonoBehaviour {
 
     public void PlayMulti()
     {
-        SceneManager.LoadScene("Multi");
+        SceneManager.LoadScene(1);
     }
 
     public void Quit()
     {
         Application.Quit();
     }
+    
 }

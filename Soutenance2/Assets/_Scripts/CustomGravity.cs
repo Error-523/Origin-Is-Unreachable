@@ -29,10 +29,13 @@ public class CustomGravity : MonoBehaviour
         if (m_rb.position.y < FloorPos)
         {
             if (Input.GetKeyDown(KeyCode.Space))
+            {
                 m_rb.velocity = Vector3.up * jumpForce;
+                return;
+            }
+            
         }
-        else
-            m_rb.AddForce(gravity, ForceMode.Acceleration);
+        m_rb.AddForce(gravity, ForceMode.Acceleration);
 
     }
 }

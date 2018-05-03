@@ -312,6 +312,7 @@
     <Compile Include="Assets\_Scripts\CustomGravity_Net.cs" />
     <Compile Include="Assets\_Scripts\DealDamage.cs" />
     <Compile Include="Assets\_Scripts\DealDamage_Net.cs" />
+    <Compile Include="Assets\_Scripts\enigma1.cs" />
     <Compile Include="Assets\_Scripts\enigmeprof.cs" />
     <Compile Include="Assets\_Scripts\MainMenu.cs" />
     <Compile Include="Assets\_Scripts\MouseLook.cs" />
@@ -330,6 +331,15 @@
     <Compile Include="Assets\_Scripts\triggerAutoUp.cs" />
     <Compile Include="Assets\_Scripts\triggerenigmefail.cs" />
     <Compile Include="Assets\_Scripts\triggerManuel.cs" />
+    <Compile Include="Assets\IA\Mummy\_Scripts\MummyStats.cs" />
+    <Compile Include="Assets\IA\Mummy\C#\Axe.cs" />
+    <Compile Include="Assets\IA\Mummy\C#\BaseAnimController.cs" />
+    <Compile Include="Assets\IA\Mummy\C#\CameraController.cs" />
+    <Compile Include="Assets\IA\Mummy\C#\MainController.cs" />
+    <Compile Include="Assets\IA\Mummy\C#\Spear.cs" />
+    <Compile Include="Assets\IA\Mummy\C#\Spear_Shield.cs" />
+    <Compile Include="Assets\IA\Mummy\C#\Sword_Shield.cs" />
+    <Compile Include="Assets\IA\Mummy\C#\Weaponless.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\Blueprint.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\BlueprintDatabase.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CraftResultSlot.cs" />
@@ -396,10 +406,24 @@
     <Compile Include="Assets\SampleScenes\Scripts\NetworkLobbyHook.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\NetworkSpaceship.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\NetworkSpaceshipBullet.cs" />
+    <Compile Include="Assets\Script\HeartLife.cs" />
+    <Compile Include="Assets\Script\mummyAI.cs" />
+    <Compile Include="Assets\Script\NavMeshComponentsGUIUtility.cs" />
+    <Compile Include="Assets\Script\NavMeshLink.cs" />
+    <Compile Include="Assets\Script\NavMeshLinkEditor.cs.cs" />
+    <Compile Include="Assets\Script\NavMeshModifier.cs" />
+    <Compile Include="Assets\Script\NavMeshModifierEditor.cs.cs" />
+    <Compile Include="Assets\Script\NavMeshModifierVolume.cs" />
+    <Compile Include="Assets\Script\NavMeshModifierVolumeEditor.cs.cs" />
+    <Compile Include="Assets\Script\NavMeshSurface.cs" />
+    <Compile Include="Assets\Script\NavMeshSurfaceEditor.cs.cs" />
+    <Compile Include="Assets\Script\player.cs" />
+    <Compile Include="Assets\Script\ThirdPersonCharacter.cs" />
     <Compile Include="Assets\trap_move.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\InventoryMaster\readme.txt" />
     <None Include="Assets\Lobby\Documentation.txt" />
     <None Include="Assets\Lobby\Instruction.txt" />
     <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
