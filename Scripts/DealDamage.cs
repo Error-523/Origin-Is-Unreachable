@@ -10,7 +10,20 @@ public class DealDamage : MonoBehaviour {
         {
             PlayerStats health = collision.gameObject.GetComponent<PlayerStats>();
             if (health != null)
-                health.TakeDamage(1);
+            {
+                Debug.Log("attack");
+                health.TakeDamage(2);
+            }
         }
+        else if (collision.gameObject.tag == "Trap")
+        {
+            PlayerStats health = collision.gameObject.GetComponent<PlayerStats>();
+            if (health != null)
+            {
+                Debug.Log("Trap");
+                health.TakeDamage(1);
+            }
+        }
+        
     }
 }

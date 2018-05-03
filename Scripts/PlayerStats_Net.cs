@@ -34,13 +34,14 @@ public class PlayerStats_Net : NetworkBehaviour {
         
         if (!isServer || currentHealth <= 0)
             return;
+        GetComponent<Animator>().Play("2HPain");
         currentHealth -= amountDamage;
         Debug.Log("Took " + amountDamage);
 
         if (currentHealth <= 0)
         {
             currentHealth = 0;
-
+            GetComponent<Animator>().Play("2HDeathC");
             RpcDied();
 
             Invoke("BackToLobby", 5f);

@@ -12,7 +12,16 @@ public class DealDamage_Net : NetworkBehaviour
         {
             PlayerStats_Net health = collision.gameObject.GetComponent<PlayerStats_Net>();
             if (health != null)
+                health.TakeDamage(2);
+        }
+        else if (collision.gameObject.tag == "Trap")
+        {
+            PlayerStats health = collision.gameObject.GetComponent<PlayerStats>();
+            if (health != null)
+            {
+                Debug.Log("Trap");
                 health.TakeDamage(1);
+            }
         }
     }
 }
