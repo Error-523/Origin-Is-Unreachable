@@ -51,8 +51,8 @@ public class mummyAI : MonoBehaviour
 	void Chase()
 	{
 		GetComponent<Animator>().Play("Run_Weponless");
-		if (target.transform.position.x < 1 || target.transform.position.y < 1)
-			agent.SetDestination(target.transform.position);
+		if (target.transform.position.x < 1 || target.transform.position.y < 1) { }
+			//agent.SetDestination(target.transform.position);
 		if (agent.remainingDistance > agent.stoppingDistance)
 			character.Move(agent.desiredVelocity, false, false);
 		else

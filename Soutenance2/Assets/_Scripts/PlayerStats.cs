@@ -47,6 +47,14 @@ public class PlayerStats: MonoBehaviour
         
         switch (currentHealth)
         {
+            case 0:
+                heart1.gameObject.SetActive(false);
+                heart2.gameObject.SetActive(false);
+                heart3.gameObject.SetActive(false);
+                heart1full.gameObject.SetActive(false);
+                heart2full.gameObject.SetActive(false);
+                heart3full.gameObject.SetActive(false);
+                break;
             case 1:
                 heart1.gameObject.SetActive(true);
                 heart2.gameObject.SetActive(false);
@@ -103,7 +111,7 @@ public class PlayerStats: MonoBehaviour
     
     void Dead()
     {
-            infoText = GameObject.FindObjectOfType<Text>();
+        infoText = GetComponentInChildren<Text>();
             infoText.text = "Game Over!\nYou died!";
             GameObject player = GameObject.FindGameObjectWithTag("Player");
             //Destroy(player);

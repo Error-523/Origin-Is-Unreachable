@@ -789,9 +789,15 @@ GameObject:
   m_Component:
   - component: {fileID: 4779349549159562}
   - component: {fileID: 95238414809759024}
+  - component: {fileID: 54294341248276690}
+  - component: {fileID: 136849380810814478}
+  - component: {fileID: 114881321240471666}
+  - component: {fileID: 195903107931193054}
+  - component: {fileID: 114789210149232532}
+  - component: {fileID: 114446967361780638}
   m_Layer: 0
   m_Name: momie
-  m_TagString: Untagged
+  m_TagString: AI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1353,7 +1359,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1911818445023790}
   m_LocalRotation: {x: -0, y: 0.8618263, z: -0, w: 0.5072035}
-  m_LocalPosition: {x: -1142.2208, y: 209, z: -5458.2505}
+  m_LocalPosition: {x: -5071, y: 209, z: -2158}
   m_LocalScale: {x: 128.75568, y: 128.7556, z: 128.7556}
   m_Children:
   - {fileID: 4231630357107364}
@@ -1553,6 +1559,21 @@ Transform:
   m_Father: {fileID: 4779349549159562}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &54294341248276690
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911818445023790}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!95 &95238414809759024
 Animator:
   serializedVersion: 3
@@ -1570,6 +1591,25 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114446967361780638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911818445023790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4443c6450ddc5b24ba8f073f0341b74e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MovingTurnSpeed: 360
+  m_StationaryTurnSpeed: 180
+  m_JumpPower: 6
+  m_GravityMultiplier: 2
+  m_RunCycleLegOffset: 0.2
+  m_MoveSpeedMultiplier: 1
+  m_AnimSpeedMultiplier: 1
+  m_GroundCheckDistance: 0.2
 --- !u!114 &114489266551180318
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1582,6 +1622,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mummyHealth: 25
+--- !u!114 &114789210149232532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911818445023790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a52f49c4722a8a45a35b3d70057f819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 20000
+  target: {fileID: 0}
+  chaseRange: 10
+  attackRepeatTime: 1.5
+  agent: {fileID: 195903107931193054}
+  character: {fileID: 114446967361780638}
+--- !u!114 &114881321240471666
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911818445023790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f737ba94bf1f2514298a1948bc9aacc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Damage: 1
+--- !u!136 &136849380810814478
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911818445023790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!137 &137236232716418360
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1926,3 +2008,24 @@ SkinnedMeshRenderer:
     m_Center: {x: 17.028194, y: 20.599804, z: -2.0124092}
     m_Extent: {x: 46.367817, y: 87.94661, z: 49.64416}
   m_DirtyAABB: 0
+--- !u!195 &195903107931193054
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911818445023790}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
