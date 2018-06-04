@@ -265,26 +265,44 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="ProBuilderCore-Unity5">
+      <HintPath>Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps-Unity5">
+      <HintPath>Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="KdTreeLib">
+      <HintPath>Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="pb_Stl">
+      <HintPath>Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+    </Reference>
+    <Reference Include="Poly2Tri">
+      <HintPath>Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderEditor-Unity5">
+      <HintPath>Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Users/flore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/thiba/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/flore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/thiba/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/flore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/thiba/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Analytics">
-      <HintPath>C:/Users/flore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+      <HintPath>C:/Users/thiba/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/flore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/thiba/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/flore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/thiba/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/flore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/thiba/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -298,6 +316,43 @@
     <Compile Include="assets\IA\Mummy\C#\Spear_Shield.cs" />
     <Compile Include="assets\IA\Mummy\C#\Sword_Shield.cs" />
     <Compile Include="assets\IA\Mummy\C#\Weaponless.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\CraftSystem\Blueprint.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\CraftSystem\BlueprintDatabase.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\CraftSystem\CraftResultSlot.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\CraftSystem\CraftSystem.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\CraftSystem\CreateBlueprintDatabase.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\CraftSystem\LeftClick.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\CraftSystem\RightClick.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\ExampleScript\PlayerInventory.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\ExampleScript\RandomChestLootSystem.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\ExampleScript\RandomLootSystem.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\ExampleScript\WorkingStation.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\FirstPerson\FirstPersonController.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Hotbar\Hotbar.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Inventory\CloseInventory.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Inventory\DesignForInventory.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Inventory\DragInventory.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Inventory\EquipmentSystem.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Inventory\InputManager.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Inventory\Inventory.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Inventory\InventoryDesign.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Inventory\StorageInventory.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\ConsumeItem.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\CreateAttributeDatabase.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\CreateInputManager.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\CreateItemDatabase.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\DragItem.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\Item.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\ItemAttribute.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\ItemAttributeList.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\ItemDataBaseList.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\ItemOnObject.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\ItemType.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\PickUpItem.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\ShowTooltip.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\SlotCover.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Item\SplitItem.cs" />
+    <Compile Include="assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs" />
     <Compile Include="assets\Maze_generate\Labyrinthe Procédurale\Assets\_Scripts\Maze.cs" />
     <Compile Include="assets\Maze_generate\Labyrinthe Procédurale\Assets\_Scripts\MazeCell.cs" />
     <Compile Include="assets\Maze_generate\Labyrinthe Procédurale\Assets\_Scripts\MouseLook.cs" />
@@ -305,6 +360,12 @@
     <Compile Include="assets\Player\_Scripts\PlayerControllerSolo.cs" />
     <Compile Include="assets\Player\_Scripts\PlayerStats.cs" />
     <Compile Include="assets\Player\_Scripts\PlayerStatsSolo.cs" />
+    <Compile Include="assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
+    <Compile Include="assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
+    <Compile Include="assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
+    <Compile Include="assets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
+    <Compile Include="assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
+    <Compile Include="assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
     <Compile Include="assets\Script\AudioSettings.cs" />
     <Compile Include="assets\Script\Book.cs" />
     <Compile Include="assets\Script\enigmeprof.cs" />
@@ -323,10 +384,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\IA\Mummy\Materials\myStandart.shader" />
+    <None Include="assets\InventoryMaster\readme.txt" />
     <None Include="assets\Maze_generate\Labyrinthe Procédurale\ProjectSettings\ProjectVersion.txt" />
     <None Include="assets\OKAY\40962_Wall_Texture\BLENDSWAP_LICENSE.txt" />
     <None Include="assets\OKAY\4096_Stone_Column_v.2\BLENDSWAP_LICENSE.txt" />
     <None Include="assets\OKAY\66855_Low_Poly_Wall_Torch\BLENDSWAP_LICENSE.txt" />
+    <None Include="assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
+    <None Include="assets\ProCore\ProBuilder\About\Font\SIL Open Font License.txt" />
+    <None Include="assets\ProCore\ProBuilder\About\ThirdPartyLicenses.txt" />
+    <None Include="assets\ProCore\ProBuilder\About\changelog.txt" />
+    <None Include="assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
     <None Include="assets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
     <None Include="assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
     <None Include="assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
