@@ -1,10 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.Networking;
 
-public class PlayerController_Net : NetworkBehaviour {
+public class PlayerController_Solo : MonoBehaviour {
 
     public float speed;
     public float rotateSpeed;
@@ -23,40 +21,25 @@ public class PlayerController_Net : NetworkBehaviour {
     public static float globalGravity = -9.81f;
 
     Rigidbody m_rb;
-    Text name;
 
 
-    private void Start() 
+    private void Start()
     {
-        
+
         // You have to set those components in Unity Editor. 
         // You have to disable the audio listener, the camera, and the controller script.
-        if (!isLocalPlayer)
-        {
-            foreach (var item in compToDisable)
-            {
-                if (item != null)
-                    item.enabled = false;
-            }
-            Destroy(this);
-            return;
-        }
-        // Components that need to be disable if isLocalPlayer
-        else
-        {
+       
             UpdateCamera();
             if (Camera.main != null)
             {
                 Camera.main.gameObject.SetActive(false);
             }
             m_rb = GetComponent<Rigidbody>();
-            name = GetComponent<Text>();
-            
-        }
         
+
     }
 
-    void FixedUpdate ()
+    void FixedUpdate()
     {
         if (Camera.main != null)
         {
@@ -66,7 +49,7 @@ public class PlayerController_Net : NetworkBehaviour {
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * 5.0f * speed;
         var z = Input.GetAxis("Vertical") * Time.deltaTime * 5.0f * speed;
 
-        
+
         transform.Translate(x, 0, z);
 
         mouseX += Input.GetAxis("Mouse X") * sensitivity;
@@ -96,7 +79,7 @@ public class PlayerController_Net : NetworkBehaviour {
 
     private void OnDisable()
     {
-        if(Camera.main !=null )
+        if (Camera.main != null)
             Camera.main.gameObject.SetActive(true); ;
     }
 }
