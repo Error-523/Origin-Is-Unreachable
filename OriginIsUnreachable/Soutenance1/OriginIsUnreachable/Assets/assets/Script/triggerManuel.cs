@@ -9,6 +9,7 @@ public class triggerManuel : MonoBehaviour {
     public float speed;
     public float maxOpenValue;
     private float CurrentValue = 0;
+    private bool ok = false;
 
     // Use this for initialization
     void Start()
@@ -19,9 +20,10 @@ public class triggerManuel : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (opening)
+        if (Input.GetKey(KeyCode.E) || ok)
         {
-            if (Input.GetKey(KeyCode.E))
+            ok = true;
+            if (opening)
             {
                 OpenDoor();
             }

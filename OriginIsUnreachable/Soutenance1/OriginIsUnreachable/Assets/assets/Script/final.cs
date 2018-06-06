@@ -17,6 +17,8 @@ public class final : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
+        GameObject.FindGameObjectWithTag("Player").gameObject.GetComponent<PlayerInventory>().inventory.SetActive(true);
+
         key.gameObject.SetActive(false);
 	}
 	

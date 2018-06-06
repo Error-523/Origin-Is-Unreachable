@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class triggerenigmefail : MonoBehaviour {
 
-    public bool opening = false;
+    private bool opening = false;
     public Transform door;
     public float speed;
     public float movement;
