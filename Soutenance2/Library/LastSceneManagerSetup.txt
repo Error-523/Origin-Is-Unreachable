@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/GameScene.unity
+- path: C:/Users/flore/Desktop/OriginIsUnreachable/Assets/Menu.unity
   isLoaded: 1
   isActive: 1
