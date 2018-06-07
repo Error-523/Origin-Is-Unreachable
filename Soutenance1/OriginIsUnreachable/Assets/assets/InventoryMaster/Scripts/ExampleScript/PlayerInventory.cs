@@ -169,6 +169,7 @@ public class PlayerInventory : MonoBehaviour
         //    UpdateHPBar();
         //    UpdateManaBar();
         //}
+        inventory.SetActive(true);
 
         if (inputManagerDatabase == null)
             inputManagerDatabase = (InputManager)Resources.Load("InputManager");
